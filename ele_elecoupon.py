@@ -2,7 +2,7 @@
 # 乐园币抢购20代金券
 # 变量：elmqqck: 必填，账号cookie
 # cron: 1 1 1 1 1
-# const $ = new Env('天天抢券');
+# const $ = new Env('抢20券');
 #
 
 
