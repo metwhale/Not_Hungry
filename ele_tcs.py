@@ -4,7 +4,7 @@
 #
 
 
-const $ = new Env('贪吃蛇');
+# const $ = new Env('贪吃蛇');
 
 
 import os
