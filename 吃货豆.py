@@ -1,3 +1,12 @@
+#
+# 变量：elmck: 必填，账号cookie
+# cron: 57 1 * * *
+#
+
+
+# const $ = new Env('吃货豆');
+
+
 import hashlib
 import os
 import re
