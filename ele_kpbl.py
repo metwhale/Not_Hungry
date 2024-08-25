@@ -1,3 +1,11 @@
+#
+# 变量：elmck: 必填，账号cookie
+# cron: 12 4 * * *
+#
+
+# const $ = new Env('卡皮巴拉');
+
+
 import json
 import logging
 import os
