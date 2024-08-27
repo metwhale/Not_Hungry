@@ -1,6 +1,6 @@
 #
 # 变量：elmck: 必填，账号cookie
-# cron: 57 1 * * *
+# cron: 2 0 * * *
 #
 
 
