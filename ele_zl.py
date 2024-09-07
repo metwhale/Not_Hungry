@@ -107,9 +107,9 @@ class LYB:
             print(f"❎重试次数: {retries}")
             if retries >= max_retries:
                 print("❎通道1尝试次数上限,尝试使用备用通道2")
-                return self.2(api, data, wua, v)
+                return self.xsign2(api, data, wua, v)
 
-    def 2(self, api, data, wua, v):
+    def xsign2(self, api, data, wua, v):
         url = "http://192.168.124.104:9999/api/get"
         body = {
             "data": data,
