@@ -2,7 +2,7 @@
  * 变量：elmck: 必填
  * cron: 20 4,10,16 * * *
  */
-const $ = new Env('饿了么合成甜蜜蜜');
+const $ = new Env('合成甜蜜蜜');
 const {
   sign,
   getToken,
