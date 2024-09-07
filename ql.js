@@ -1,3 +1,6 @@
+/**
+ * const $ = new Env('ql');
+ */
 'use strict';
 
 const got = require('got');
