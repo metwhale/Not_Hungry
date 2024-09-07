@@ -3,7 +3,7 @@
  * cron: 10 5,13,18 * * *
  */
 
-const $ = new Env('饿了么福尔魔方');
+const $ = new Env('福尔魔方');
 const qs = require("qs");
 const request = require("request");
 
