@@ -1,6 +1,6 @@
 #
 # 变量：elmck: 必填，账号cookie
-# cron: 15 9 * * *
+# cron: 15 2 * * *
 #
 
 # const $ = new Env('邀请助力');
