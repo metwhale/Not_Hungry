@@ -13,6 +13,7 @@ import datetime
 
 host = 'https://acs.m.goofish.com'
 
+elmzlck = os.environ.get('elmzlck')
 zlck = os.environ.get('elmck')
 
 ck = ''
@@ -331,13 +332,13 @@ if __name__ == '__main__':
     # cookie_str = ck['elmck']
     cookies = cookie.split("&")
 
-    zlck_list = zlck.split("&")
-    print(f"获取到 {len(zlck_list)} 个被助力账号")
+    elmzlck_list = elmzlck.split("&")
+    print(f"获取到 {len(elmzlck_list)} 个被助力账号")
 
     dzl_num = 0
-    for zlck in zlck_list:
+    for elmzlck in elmzlck_list:
         dzl_num += 1
-        lyb = LYB(zlck)
+        lyb = LYB(elmzlck)
         actid, shareId = lyb.yqm()
         print(actid)
         if actid is None or shareId is None:
