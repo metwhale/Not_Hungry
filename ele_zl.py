@@ -147,7 +147,7 @@ class LYB:
             if type(data) == dict:
                 data = json.dumps(data)
             wua = str(wua)
-            sign = self.(api, data, wua, v)
+            sign = self.xsign(api, data, wua, v)
             url = f"{host}/gw/{api}/{v}/"
             headers = {
                 "x-sgext": quote(sign.get('x-sgext')),
