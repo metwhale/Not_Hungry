@@ -43,7 +43,7 @@ class LYB:
         self.name = self.uid
 
     def xsign(self, api, data, wua, v):
-        url = "http://elm.iiliil.cn/api/getXSign"
+        url = "http://192.168.124.104:9999/api/getXSign"
         body = {
             "data": data,
             "api": api,
@@ -106,10 +106,10 @@ class LYB:
             print(f"❎重试次数: {retries}")
             if retries >= max_retries:
                 print("❎通道1尝试次数上限,尝试使用备用通道2")
-                return self.xsign2(api, data, wua, v)
+                return self.2(api, data, wua, v)
 
-    def xsign2(self, api, data, wua, v):
-        url = "http://x111.bdwl.asia/api/getXSign"
+    def 2(self, api, data, wua, v):
+        url = "http://192.168.124.104:9999/api/get"
         body = {
             "data": data,
             "api": api,
@@ -146,7 +146,7 @@ class LYB:
             if type(data) == dict:
                 data = json.dumps(data)
             wua = str(wua)
-            sign = self.xsign(api, data, wua, v)
+            sign = self.(api, data, wua, v)
             url = f"{host}/gw/{api}/{v}/"
             headers = {
                 "x-sgext": quote(sign.get('x-sgext')),
