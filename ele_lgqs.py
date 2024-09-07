@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# cron: 10 5,18 * * *
+# const $ = new Env('蓝骑士');
 
 import hashlib
 import os
