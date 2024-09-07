@@ -1,13 +1,13 @@
 /**
  * 变量：elmck: 必填，账号cookie，
- * 定时随意，每天跑一遍就可以
+ * 定时随意，每天跑至少跑两遍
  * cron: 7 6,11,17 * * *
 */
 
 
 const https = require('https');
 https.globalAgent.options.rejectUnauthorized = false;
-const $ = new Env('饿了么连连看');
+const $ = new Env('连连看');
 const {
     getCookies,
     sign,
