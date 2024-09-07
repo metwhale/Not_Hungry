@@ -1,8 +1,11 @@
-# -*- coding:utf-8 -*-
-"""
-cron: 15 9 * * *
-new Env('乐园币');
-"""
+#
+# 变量：elmck: 必填，账号cookie
+# cron: 30 8,14,18 * * *
+#
+
+# const $ = new Env('小游戏');
+
+
 import hashlib
 import os
 import time
