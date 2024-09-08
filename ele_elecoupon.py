@@ -1,4 +1,5 @@
 # const $ = new Env('饿了么抢卷');
+# cron: 59 23 * * *
 import os
 import re
 import time
