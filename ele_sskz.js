@@ -4,7 +4,7 @@
  // cron: 11 5,16 * * *
  // 2023.11.7 更新：首次发布；
  // 2024.02.26 更新：打印错误日志；
- //
+ // const $ = new Env('食神客栈');
 
 const {
     validateCarmeWithType: _0xd12380,
