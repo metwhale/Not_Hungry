@@ -1,7 +1,7 @@
  //
  // @平行绳 飞机频道：https://t.me/tigerorrose
  // 变量：elmck: 必填，账号cookie，短信登录面板项目地址：https://github.com/funaihui/eleWeb
- // cron: 11 */6 * * *
+ // cron: 11 5,16 * * *
  // 2023.11.7 更新：首次发布；
  // 2024.02.26 更新：打印错误日志；
  //
@@ -376,8 +376,8 @@ async function _0x5be252() {
          console.log(_0x2f18c9.msg)
          break;
      }else{
-         console.log("等待5分钟")
-         await _0x1e0e6b(5*60);
+         console.log("等待1秒钟")
+         await _0x1e0e6b(1);
      }
  }
     // _0x2f18c9.msg ? console.log(_0x2f18c9.msg) : console.log("领取金币成功，当前金币：" + _0x2f18c9.value);
