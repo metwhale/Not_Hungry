@@ -1,7 +1,7 @@
 /**
  * @平行绳 飞机频道：https://t.me/tigerorrose
  * 变量：elmck: 必填，账号cookie，短信登录面板项目地址：https://github.com/funaihui/eleWeb
- * cron 0 0/6 * * *
+ * cron: 11 */6 * * *
  * 2023.11.7 更新：首次发布；
  * 2024.02.26 更新：打印错误日志；
  */
