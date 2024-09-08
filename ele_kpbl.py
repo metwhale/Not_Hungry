@@ -1,4 +1,4 @@
-# cron "30 */6 * * *" script-path=xxx.py,tag=匹配cron用
+# cron "30 7,12,17,22 * * *" script-path=xxx.py,tag=匹配cron用
 # const $ = new Env('卡皮巴拉')
 import json
 import logging
