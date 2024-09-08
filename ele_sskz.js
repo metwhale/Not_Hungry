@@ -376,8 +376,8 @@ async function _0x5be252() {
          console.log(_0x2f18c9.msg)
          break;
      }else{
-         console.log("等待1秒钟")
-         await _0x1e0e6b(1);
+         console.log("等待1分钟")
+         await _0x1e0e6b(1*60);
      }
  }
     // _0x2f18c9.msg ? console.log(_0x2f18c9.msg) : console.log("领取金币成功，当前金币：" + _0x2f18c9.value);
